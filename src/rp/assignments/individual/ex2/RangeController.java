@@ -14,7 +14,7 @@ public class RangeController implements StoppableRunnable {
 	private final RangeFinderDescription desc;
 	private final RangeFinder ranger;
 	private final float maxD;
-	private final float k = 0.3f;
+	private final float k = 0.4f;
 	private double speed;
 	private boolean moving = true;
 
@@ -24,7 +24,7 @@ public class RangeController implements StoppableRunnable {
 		this.robo = _robot;
 		this.desc = _desc;
 		this.ranger = _ranger;
-		this.maxD = _maxDistance - 0.2f;
+		this.maxD = _maxDistance - 0.4f;
 
 	}
 
@@ -51,7 +51,7 @@ public class RangeController implements StoppableRunnable {
 				}
 				else
 				{
-					robo.getDifferentialPilot().setTravelSpeed(0.4);
+					robo.getDifferentialPilot().setTravelSpeed(robo.getDifferentialPilot().getMaxTravelSpeed());
 				}
 				
 			}

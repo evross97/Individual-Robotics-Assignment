@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 https://git.cs.bham.ac.uk/evr526/Individual2.git master afc45d9225fd92956023413923acd26f4982df45
+=======
+https://git.cs.bham.ac.uk/evr526/Individual1.git master 03484dbc7db55ffc0277ed07dc4c322a9a772f0c
+>>>>>>> 476a53675d1598fdfba3e8f9f74f53265d56c814
